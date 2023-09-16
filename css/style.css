@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --blue-background: #0053A9
+}
+
+body {
+  text-transform: uppercase;
+  width: 100%;
+}
+
+hr {
+  width: 92px;
+  height: 5px;
+  border-radius: 9px;
+
+  background-color: var(--blue-background);
+}
+
+header {
+  background-color: red;
+}
+
+header .fundo-azul {
+  background-color: #0053A9;
+}
+
+header .fundo-azul p {
+  text-align: center;
+}
