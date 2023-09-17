@@ -83,3 +83,15 @@ header .procurar input {
   align-items: center;
   justify-content: center;
 }
+
+.contato .icones {
+  margin-right: 9px;
+}
+
+.contato p {
+  color: var(--color-letter-paragraph);
+}
+
+.contato p span {
+  font-weight: 700;
+}
