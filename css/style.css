@@ -9,6 +9,7 @@
 :root {
   --blue-background: #0053A9;
   --color-letter: #FFF;
+  --color-letter-paragraph: #ADADAD;
 }
 
 body {
@@ -26,7 +27,7 @@ hr {
 }
 
 header {
-  background-color: red;
+  text-transform: uppercase;
 }
 
 header .fundo-azul {
@@ -51,3 +52,34 @@ header .fundo-azul p img {
   width: 81px;
   height: 28px;
 }
+
+header .procurar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 95%;
+  margin: auto;
+}
+
+header .procurar input {
+  width: 524px;
+  height: 63px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: #F2F2F2;
+  font-size: 14px;
+  margin-right: 27px;
+  color: var(--color-letter-paragraph);
+  text-transform: inherit;
+  font-weight: 500;
+  padding-left: 21px;
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+/* .contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
