@@ -95,3 +95,24 @@ header .procurar input {
 .contato p span {
   font-weight: 700;
 }
+
+.com-o-que-trabalhamos {
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 95%;
+  margin: auto;
+}
+
+.com-o-que-trabalhamos .icones {
+  margin-right: 10px;
+}
+.com-o-que-trabalhamos p {
+  margin-left: 10px;
+  color: var(--color-letter-paragraph);
+}
+
+.com-o-que-trabalhamos .promocao {
+  margin-right: 30px;
+}
