@@ -7,12 +7,14 @@
 }
 
 :root {
-  --blue-background: #0053A9
+  --blue-background: #0053A9;
+  --color-letter: #FFF;
 }
 
 body {
   text-transform: uppercase;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
@@ -29,8 +31,23 @@ header {
 
 header .fundo-azul {
   background-color: #0053A9;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header .fundo-azul p {
   text-align: center;
+  color: var(--color-letter);
+  margin-right: 10px;
+}
+
+header .fundo-azul p span {
+  font-weight: 600;
+}
+
+header .fundo-azul p img {
+  width: 81px;
+  height: 28px;
 }
