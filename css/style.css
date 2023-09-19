@@ -157,3 +157,6 @@ main {
   line-height: 100px;
 }
 
+section.produtos {
+  display: flex;
+}
