@@ -26,6 +26,10 @@ hr {
   background-color: var(--blue-background);
 }
 
+li {
+  list-style: none;
+}
+
 header {
   text-transform: uppercase;
 }
@@ -119,4 +123,40 @@ header .procurar input {
 
 .banner {
   width: 100%;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.container .nosso-forte {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+ 
+  height: 100px;
+  padding-top: 38px;
+  padding-bottom: 35px;
+}
+
+.nosso-forte div {
+  margin-right: 52px;
+  display: flex;
+  justify-content: baseline;
+}
+
+.nosso-forte div.ultimo {
+  margin-right: 0;
+}
+
+.nosso-forte img {
+  margin-right: 12px;
+}
+
+.nosso-forte li {
+  color: var(--color-letter-paragraph);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100px;
 }
