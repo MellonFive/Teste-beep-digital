@@ -159,4 +159,5 @@ main {
 
 section.produtos {
   display: flex;
+  margin-bottom: 48px;
 }
