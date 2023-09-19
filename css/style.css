@@ -30,10 +30,6 @@ li {
   list-style: none;
 }
 
-header {
-  text-transform: uppercase;
-}
-
 header .fundo-azul {
   background-color: #0053A9;
   height: 43px;
@@ -67,22 +63,22 @@ header .procurar {
 }
 
 header .procurar input {
+  background-color: #F2F2F2;
   width: 524px;
   height: 63px;
+  margin-right: 27px;
   border-radius: 10px;
   border: transparent;
-  background-color: #F2F2F2;
   font-size: 14px;
-  margin-right: 27px;
+  font-weight: 500;
   color: var(--color-letter-paragraph);
   text-transform: inherit;
-  font-weight: 500;
   padding-left: 21px;
   padding-top: 22px;
   padding-bottom: 24px;
 }
 
-.contato {
+.procurar .contato {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +97,7 @@ header .procurar input {
 }
 
 .com-o-que-trabalhamos {
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   height: 70px;
@@ -130,10 +126,10 @@ header .procurar input {
   margin: auto;
 }
 
-.container .nosso-forte {
+.nosso-forte {
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  justify-content: space-between;
  
   height: 100px;
   padding-top: 38px;
@@ -160,3 +156,5 @@ header .procurar input {
   font-size: 14px;
   line-height: 100px;
 }
+
+
