@@ -179,6 +179,22 @@ section.produtos {
 
 .produto .informacoes {
   position: absolute;
-  top: 52%;
-  left: 35%;
+  top: 51%;
+  left: 37%;
+}
+
+.produto .informacoes .titulo-produto {
+  color: var(--color-letter);
+  width: 100%;
+  font-size: 27px;
+}
+
+.produto .informacoes .produto-botao {
+  background-color: var(--color-letter);
+  margin-top: 25px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 167px;
+  height: 45px;
 }
