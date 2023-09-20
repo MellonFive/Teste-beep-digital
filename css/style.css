@@ -159,5 +159,26 @@ main {
 
 section.produtos {
   display: flex;
+  justify-content: center;
   margin-bottom: 48px;
+}
+
+.produto {
+  position: relative;
+  margin: 0 22px;
+}
+
+.produto .imagens-banner {
+  width: 370px;
+  height: 300px;
+}
+
+.imagens-banner.-ultimo {
+  margin-right: 17px;
+}
+
+.produto .informacoes {
+  position: absolute;
+  top: 52%;
+  left: 35%;
 }
