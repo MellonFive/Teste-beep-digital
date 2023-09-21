@@ -23,6 +23,9 @@ hr {
   border-radius: 9px;
 
   background-color: var(--blue-background);
+
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 
 li {
@@ -186,7 +189,7 @@ section.produtos {
 .produto .informacoes .titulo-produto {
   color: var(--color-letter);
   width: 100%;
-  font-size: 27px;
+  font-size: 25px;
 }
 
 .produto .informacoes .produto-botao {
@@ -197,4 +200,5 @@ section.produtos {
   border-radius: 5px;
   width: 167px;
   height: 45px;
+  margin-left: 40px;
 }
