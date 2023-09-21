@@ -17,6 +17,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  color: #0053A9;
+  width: 419px;
+  height: 37px;
+}
+
 hr {
   width: 92px;
   height: 5px;
@@ -201,4 +207,27 @@ section.produtos {
   width: 167px;
   height: 45px;
   margin-left: 40px;
+}
+
+.destaques {
+  display: flex;
+  gap: 10px;
+}
+
+.produto-destaque {
+  height: 100vh;
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px #00000024;
+}
+
+.imagem-destaque {
+  background-color: #ADADAD;
+  width: 270px;
+  Height: 297px;
+}
+
+.produto-destaque, .imagem-destaque {
+  border-radius: 10px;
 }
