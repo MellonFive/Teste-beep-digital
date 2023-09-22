@@ -10,6 +10,8 @@
   --blue-background: #0053A9;
   --color-letter: #FFF;
   --color-letter-paragraph: #ADADAD;
+  --color-price: #828282;
+  --color-button-add: #32B864;
 }
 
 body {
@@ -145,16 +147,6 @@ main {
   margin-right: 17px;
 }
 
-.nosso-forte div {
-  margin-right: 52px;
-  display: flex;
-  justify-content: baseline;
-}
-
-.nosso-forte div.ultimo {
-  margin-right: 0;
-}
-
 .nosso-forte img {
   margin-right: 12px;
 }
@@ -174,7 +166,7 @@ section.produtos {
 
 .produto {
   position: relative;
-  margin: 0 22px;
+  margin: 0 20px;
 }
 
 .produto .imagens-banner {
@@ -211,19 +203,18 @@ section.produtos {
 
 .destaques {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .produto-destaque {
-  height: 100vh;
-  width: 300px;
-  padding: 12px;
+  height: 100%;
+  padding: 12px 10px 0px 12px;
   position: relative;
   box-shadow: 0px 0px 10px 0px #00000024;
 }
 
 .imagem-destaque {
-  background-color: #ADADAD;
+  background-color: var(--color-letter-paragraph);
   width: 270px;
   Height: 297px;
 }
@@ -231,3 +222,72 @@ section.produtos {
 .produto-destaque, .imagem-destaque {
   border-radius: 10px;
 }
+
+.destaques .produto-destaque .descricao {
+  color: #3A3A3A;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 17px;
+}
+
+.destaques .produto-destaque .informacoes-preco {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.destaques .produto-destaque .informacoes-preco .desconto {
+  display: inline-block;
+  color: var(--color-price);
+  text-decoration: line-through;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.destaques .produto-destaque .informacoes-preco .real {
+  display: inline-block;
+  margin-left: 8px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.destaques .produto-destaque .pagamento-credito {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.destaques .produto-destaque .pagamento-credito span {
+  font-weight: 700;
+
+}
+
+.destaques .produto-destaque .pagamento-boleto {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.destaques .produto-destaque .botao {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.destaques .produto-destaque .botao .quantidade {
+  width: 82px;
+  border-radius: 10px;
+  border: none;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.destaques .produto-destaque .botao .adicionar {
+  background-color: var(--color-button-add);
+  border: none;
+  padding: 16px 58px 18px 37px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: var(--color-letter);
+  font-weight: 700;
+}
+
