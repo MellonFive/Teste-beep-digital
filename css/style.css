@@ -12,6 +12,7 @@
   --color-letter-paragraph: #ADADAD;
   --color-price: #828282;
   --color-button-add: #32B864;
+  --color-background-black: #000;
 }
 
 body {
@@ -41,7 +42,7 @@ li {
 }
 
 header .fundo-azul {
-  background-color: #0053A9;
+  background-color: var(--blue-background);
   height: 43px;
   display: flex;
   align-items: center;
@@ -279,6 +280,27 @@ section.produtos {
   border: none;
   font-family: inherit;
   font-size: 15px;
+
+  position: relative;
+}
+
+.destaques .produto-destaque .botao .seta-cima, 
+.destaques .produto-destaque .botao .seta-baixo {
+  width: 7px;
+  height: 6px;
+}
+
+.destaques .produto-destaque .botao .seta-cima {
+  position: absolute;
+  top: 533px;
+  left: 75px;
+}
+
+.destaques .produto-destaque .botao .seta-baixo {
+  position: absolute;
+  top: 557px;
+  left: 75px;
+  color: var(--blue-background);
 }
 
 .destaques .produto-destaque .botao .adicionar {
@@ -291,3 +313,14 @@ section.produtos {
   font-weight: 700;
 }
 
+.destaques .produto-destaque .porcentagem-desconto {
+  background-color: var(--color-background-black);
+  color: var(--color-letter);
+  font-size: 12px;
+  padding: 9px 19px 8px 10px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
