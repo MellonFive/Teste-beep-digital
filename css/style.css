@@ -420,3 +420,32 @@ section.produtos {
 .destaques.-ofertas {
   margin-bottom: 56px;
 }
+
+.rede-social {
+  margin-bottom: 13px;
+}
+
+.rede-social .conteudo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rede-social .conteudo .subtitulo {
+  margin-top: 20px;
+}
+
+.rede-social .conteudo .subtitulo .siga {
+  margin-bottom: -10px;
+  width: 450px;
+}
+
+.rede-social .conteudo .subtitulo .siga span {
+  display: inline-block;
+  font-weight: 400;
+}
+
+.rede-social .imagens-rede-social {
+  margin-top: 20px;
+  width: 1200px;
+}
