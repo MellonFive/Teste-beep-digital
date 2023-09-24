@@ -416,3 +416,7 @@ section.produtos {
   text-transform: lowercase;
   font-size: 14px;
 }
+
+.destaques.-ofertas {
+  margin-bottom: 56px;
+}
