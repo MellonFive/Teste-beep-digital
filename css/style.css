@@ -357,3 +357,9 @@ section.produtos {
 .marcas .conteudo .retangulo img {
   width: 120px;
 }
+
+.parte-video {
+  margin: 50px 0;
+  width: 100%;
+
+}
