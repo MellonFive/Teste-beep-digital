@@ -449,3 +449,48 @@ section.produtos {
   margin-top: 20px;
   width: 1200px;
 }
+
+.newsletter {
+  margin-top: 27px;
+  display: flex;
+}
+
+.newsletter .conteudo {
+  display: flex;
+}
+
+.newsletter .conteudo .agrupamento {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.newsletter .conteudo .agrupamento .paragrafo {
+  color: var(--blue-background);
+  margin-top: -10px;
+}
+
+.newsletter .conteudo input {
+  background-color: #F2F2F2;
+  width: 500px;
+  height: 63px;
+  margin-right: 27px;
+  border-radius: 10px;
+  border: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-letter-paragraph);
+  text-transform: inherit;
+  padding-left: 21px;
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.newsletter .enviar {
+  background-color: var(--blue-background);
+  border: none;
+  padding: 20px 60px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--color-letter);
+  font-weight: 700;
+}
