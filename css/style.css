@@ -13,6 +13,7 @@
   --color-price: #828282;
   --color-button-add: #32B864;
   --color-background-black: #000;
+  --color-background-line: #B2B2B2;
 }
 
 body {
@@ -361,4 +362,56 @@ section.produtos {
 .parte-video {
   margin: 50px 0;
   width: 100%;
+}
+
+.clientes {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.clientes .cliente {
+  box-shadow: 0px 1px 15px 0px #00000024;
+  padding: 20px;
+}
+
+.clientes .cliente .parte-cima {
+  display: flex;
+}
+
+.clientes .cliente .parte-cima .foto-cliente {
+  margin: 15px 16px 14px 70px;
+  width: 94px;
+  height: 94px;
+}
+
+.clientes .cliente .parte-cima .nome-cliente {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 30px;
+  width: 140px;
+  color: var(--color-price);
+}
+
+.clientes .cliente .parte-cima .cliente-e-nivel {
+  margin-top: 10px;
+}
+
+.clientes .cliente .parte-cima .nivel-cliente {
+  display: block;
+  height: 14px;
+}
+
+.clientes .cliente .linha {
+  width: 357px;
+  height: 1px;
+  margin: 14px auto 20px;
+  background-color: var(--color-background-line);
+}
+
+.clientes .cliente .parte-baixo {
+  width: 287px;
+  margin: auto;
+  text-transform: lowercase;
+  font-size: 14px;
 }
