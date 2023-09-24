@@ -528,3 +528,37 @@ section.produtos {
   border: 1px solid #707070;
   text-transform: uppercase;
 }
+
+.sessao .categorias {
+  width: 107px;
+  height: 282px;
+}
+
+.sessao .categorias .titulo,
+.sessao .sobre-nos .titulo,
+.sessao .contato .titulo {
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-letter-paragraph);
+}
+
+.sessao .categorias .produto {
+  margin-bottom: 15px;
+  width: 145px;
+  font-size: 15px;
+  text-align: center;
+  color: var(--color-letter-paragraph);
+}
+
+.sessao .sobre-nos .listas {
+  margin-left: -55px;
+}
+
+.sessao .sobre-nos .produto {
+  margin-bottom: 15px;
+  width: 250px;
+  font-size: 15px;
+  text-align: center;
+  color: var(--color-letter-paragraph);
+}
